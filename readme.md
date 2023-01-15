@@ -1,6 +1,6 @@
 # Sharpe ratio and volatility calculation
 
-This script takes a list of stocks as input and creates a portfolio where $10000 is equally distributed among all the stocks. 
+This script takes a list of stocks as input and creates a portfolio where $10,000 is equally distributed among all the stocks. 
 
 The portfolio returns, the standard deviation, and sharpe ratio of the portfolio are calculated.
 
@@ -11,7 +11,7 @@ All the input and output files will be stored in the data folder.
 1. Python 3.x
 2. Alphavantage premium key
 
-##Steps to run:
+## Steps to run:
 
 1. In the terminal, run 
 ```pip3 install -r requirements.txt```
@@ -21,8 +21,9 @@ All the input and output files will be stored in the data folder.
 4. Run ```python3 price_getter.py```. Prices will be saved in "price.csv".
 5. Change the name of the first column in "price.csv" from "index" to "Date" and save.
 6. Run ```python3 sharpe_ratio_calculator.py```
-7. The metrics will be printed in the format shown below. The returns data for the portfolio will be saved in "output.xlsx"
+7. The metrics will be printed in the format shown below. The returns data for the portfolio will be saved in "output.csv"
 
+![Screenshot 2023-01-15 at 4 59 23 PM](https://user-images.githubusercontent.com/122633765/212538863-3527a496-71f4-410c-92ac-1d3a9bcdf6e6.png)
 
 Tip: To get benchmark performance, create input.csv with a single row containing the benchmark stock, e.g SPY.
 
